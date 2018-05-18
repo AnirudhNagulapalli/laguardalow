@@ -1,6 +1,6 @@
 /*
 Theme Name: laguarda.low
-Author: Anirudh Nagulapalli	
+Author: Anirudh Nagulapalli 
 Description: Bootstrap Blog template converted to WordPress
 Version: 0.0.1
 Tags: bootstrap
@@ -51,24 +51,24 @@ h6, .h6 {
 }
 
 /* Nav links */
-.blog-nav-item {
+.site-nav-item {
   position: relative;
   display: inline-block;
   padding: 10px;
   font-weight: 500;
   color: #cdddeb;
 }
-.blog-nav-item:hover,
-.blog-nav-item:focus {
+.site-nav-item:hover,
+.site-nav-item:focus {
   color: #fff;
   text-decoration: none;
 }
 
 /* Active state gets a caret at the bottom */
-.blog-nav .active {
+.site-nav .active {
   color: #F0F0F0;
 }
-.blog-nav .active:after {
+.site-nav .active:after {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -82,23 +82,23 @@ h6, .h6 {
   border-left: 5px solid transparent;
 }
 
-.blog-nav li {
+.site-nav li {
     position: relative;
     display: inline-block;
     padding: 18px;
     font-weight: 500; 
 }
 
-.blog-nav li a {
+.site-nav li a {
   color: #C0C0C0;
 }
 
-.blog-nav li a:hover {
+.site-nav li a:hover {
   text-decoration: none;
   color: #ED2939;
 }
 
-.blog-nav .current-menu-item a {
+.site-nav .current-menu-item a {
   color: #ED2939;
 }
 
@@ -118,7 +118,7 @@ h6, .h6 {
 }
 
 .site-title a {
-	color: #ED2939 !important;
+  color: #ED2939 !important;
 }
 .site-title a:hover {
   text-decoration: none;
@@ -196,5 +196,5 @@ h6, .h6 {
 }
 
 #footer_projects, #footer_expertise, #footer_firm, #footer_news, #footer_contact, #credits {
-	list-style-type: none;
+  list-style-type: none;
 }
