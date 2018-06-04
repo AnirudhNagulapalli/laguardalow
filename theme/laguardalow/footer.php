@@ -1,78 +1,254 @@
-<footer class="site-footer">
-  <div class="row-fluid">
-    <div class="col-md-8">
-      <div class="col-md-2">
-        <ul id="footer_projects">
-          <li><strong>PROJECTS</strong></li>
-          </br>
-          <li>ALL PROJECTS</li>
-          <li>CURRENT</li>
-          <li>PLANNING</li>
-          <li>MIXED USE</li>
-          <li>RETAIL</li>
-          <li>COMMERCIAL</li>
-          <li>TRANSIT</li>
-          <li>PUBLIC</li>
-          <li>ARCHIVE</li>
-        </ul>
+    <footer class="site-footer">
+      <div class="container-fluid">
+        <div class="col-md-8">
+          <div class="col-md-2 animation-element footer_projects">
+            <ul>
+              <li class="footer-titles"><a>PROJECTS</a></li>
+              </br>
+              <li><a>All Projects</a></li>
+              <li><a>Current</a></li>
+              <li><a>Planning</a></li>
+              <li><a>Mixed Use</a></li>
+              <li><a>Retail</a></li>
+              <li><a>Commercial</a></li>
+              <li><a>Transit</a></li>
+              <li><a>Public</a></li>
+              <li><a>Archive</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 animation-element footer_expertise">
+            <ul>
+              <li class="footer-titles"><a>EXPERTISE</a></li>
+              </br>
+              <li><a>Master Planning</a></li>
+              <li><a>Mixed Use</a></li>
+              <li><a>Retail Design</a></li>
+              <li><a>Sustainability</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 animation-element footer_firm">
+            <ul>
+              <li class="footer-titles"><a>FIRM</a></li>
+              </br>
+              <li><a>Overview</a></li>
+              <li><a>Leadership</a></li>
+              <li><a>Videos</a></li>
+              <li><a>Awards</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 animation-element footer_news">
+            <ul>
+              <li class="footer-titles"><a>NEWS</a></li>
+              </br>
+              <li><a>Events</a></li>
+              <li><a>Construction</a></li>
+              <li><a>Publications</a></li>
+              <li><a>Awards</a></li>
+              <li><a>Newsletters</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 animation-element footer_contact">
+            <ul>
+              <li class="footer-titles"><a>CONTACT</a></li>
+              </br>
+              <li><a href=".project-nav">Commisions</a></li>
+              <li><a>Press</a></li>
+              <li><a>General</a></li>
+              <li><a>Careers</a></li>
+              <li><a>Office Locations</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 animation-element"></div>
+        </div>
+        <div class="col-md-4 animation-element credits">
+          <ul>
+            <li class="footer-titles">CREDITS</li>
+            </br>
+            <li>Website Design</li>
+            <li>Pisactello Design Centre</li>
+            </br>
+            <li>Photography</li>
+            <li>Placeholder Name</li>
+            </br>
+            <li>Video</li>
+            <li>Yo.Yuu Creative</li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-2">
-        <ul id="footer_expertise">
-          <li><strong>EXPERTISE</strong></li>
-          </br>
-          <li>MASTER PLANNING</li>
-          <li>MIXED USE</li>
-          <li>RETAIL DESIGN</li>
-          <li>SUSTAINABILITY</li>
-        </ul>
+      <div class="lowerBand row-fluid">
+        <div class="col-md-3 copyRight">
+          <p>Copyright &copy; 2018 Laguarda Low Architects | LLA</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3 socialMedia">
+          <?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>  
+        </div>
       </div>
-      <div class="col-md-2">
-        <ul id="footer_firm">
-          <li><strong>FIRM</strong></li>
-          </br>
-          <li>OVERVIEW</li>
-          <li>LEADERSHIP</li>
-          <li>VIDEOS</li>
-          <li>AWARDS</li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <ul id="footer_news">
-          <li><strong>NEWS</strong></li>
-          </br>
-          <li>EVENTS</li>
-          <li>CONSTRUCTION</li>
-          <li>PUBLICATIONS</li>
-          <li>AWARDS</li>
-          <li>NEWSLETTERS</li>
-        </ul>
-      </div>
-      <div class="col-md-2">
-        <ul id="footer_contact">
-          <li><strong>CONTACT</strong></li>
-          </br>
-          <li>COMMISIONS</li>
-          <li>PRESS</li>
-          <li>GENERAL</li>
-          <li>CAREERS</li>
-          <li>OFFICE LOCATIONS</li>
-        </ul>
-      </div>
-      <div class="col-md-2"></div>
-    </div>
-    <div class="col-md-4">
-      <ul id=credits>
-        <li><strong>CREDITS</strong></li>
-        </br>
-        <li>Website Design</li>
-        <li>Pisactello Design Centre</li>
-        </br>
-        <li>Photography</li>
-        <li>Placeholder Name</li>
-        </br>
-        <li>Video</li>
-        <li>Yo.Yuu Creative</li>
-      </ul>
-    </div>
-  </div>
-</footer>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+      $('#slider').nivoSlider({ 
+        effect: 'fade',                 // Specify sets like: 'fold,fade,sliceDown' 
+        slices: 15,                       // For slice animations 
+        boxCols: 8,                       // For box animations 
+        boxRows: 4,                       // For box animations 
+        animSpeed: 500,                   // Slide transition speed 
+        pauseTime: 3000,                  // How long each slide will show 
+        startSlide: 0,                    // Set starting Slide (0 index) 
+        directionNav: true,               // Next & Prev navigation 
+        controlNav: true,                 // 1,2,3... navigation 
+        controlNavThumbs: false,          // Use thumbnails for Control Nav 
+        pauseOnHover: false,               // Stop animation while hovering 
+        manualAdvance: false,             // Force manual transitions 
+        prevText: 'Prev',                 // Prev directionNav text 
+        nextText: 'Next',                 // Next directionNav text 
+        randomStart: false,               // Start on a random slide 
+        beforeChange: function(){},       // Triggers before a slide transition 
+        afterChange: function(){},        // Triggers after a slide transition 
+        slideshowEnd: function(){},       // Triggers after all slides have been shown 
+        lastSlide: function(){},          // Triggers when last slide is shown 
+        afterLoad: function(){}           // Triggers when slider has loaded 
+      });
+    });
+    </script>
+    <script type="text/javascript">
+      $('.project-nav-article').click(function() {
+        $('.project-nav-article').removeClass('active');
+        $(this).addClass('active');
+      });
+    </script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        console.log( "document loaded" );
+        $('.band').addClass('active');
+      });
+    </script>
+    
+    
+
+
+    <!-- Footer sliding up on scroll -->
+    <script type="text/javascript">
+      var $animation_elements = $('.animation-element');
+      var $window = $(window);
+
+      function check_if_in_view() {
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
+
+        $.each($animation_elements, function() {
+          var $element = $(this);
+          var element_height = $element.outerHeight();
+          var element_top_position = $element.offset().top;
+          var element_bottom_position = (element_top_position + element_height);
+
+          //check to see if this current container is within viewport
+          if ((element_bottom_position >= window_top_position) &&
+            (element_top_position <= window_bottom_position)) {
+            $element.addClass('in-view');
+          } else {
+            // $element.removeClass('in-view');
+          }
+        });
+      }
+
+      $window.on('scroll resize', check_if_in_view);
+      $window.trigger('scroll');
+    </script>
+
+    <!-- <script type="text/javascript">
+      $( document ).ready(function() {
+        var $animation_elements = $('.isotope-item');
+        var $window = $(window);
+
+        function check_if_in_view() {
+          var window_height = $window.height();
+          var window_top_position = $window.scrollTop();
+          var window_bottom_position = (window_top_position + window_height);
+
+          $.each($animation_elements, function() {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position) &&
+              (element_top_position <= window_bottom_position)) {
+              // console.log(element_top_position);
+              // console.log(element_bottom_position);
+              // console.log(element_height);
+              // console.log(window_top_position);
+              // console.log(window_bottom_position);
+              // console.log(window_height);
+              // console.log( "Finished" );
+              $element.addClass('in-view');
+            } else {
+              // $element.removeClass('in-view');
+            }
+          });
+        }
+
+        $window.on('scroll resize', check_if_in_view);
+        $window.trigger('scroll');
+      });
+    </script> -->
+
+    <!-- Script for lower text on Homepage to transition -->
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        // $('.nivo-caption').addClass('effect');
+        console.log( "document loaded" );
+      });
+    </script>
+    <!-- <script type="text/javascript">
+      $(window).load(function() {
+        $('.nivo-caption').addClass('effect');
+      });
+    </script> -->
+    <!-- <script type="text/javascript" language="JavaScript">
+      function set_body_height() { // set body height = window height
+        $('body').height($(window).height());
+      }
+      $(document).ready(function() {
+        $(window).bind('resize', set_body_height);
+        set_body_height();
+      });
+    </script> -->
+
+
+
+    <!-- Script for adding a class to Projets Assets -->
+    <!-- <script type="text/javascript">
+      $( document ).ready(function(){
+        $(".isotope-item").addClass(".fade-in");
+        console.log( "document loaded" );
+      });
+    </script> -->
+    <!-- Generating random fadeins -->
+    <!-- <script type="text/javascript">
+      $('.fadeIn').before('<div>&nbsp;</div>');
+
+      (function fadeInDiv(){
+        var divs;
+        if((divs = $('.fadeIn:not(:visible)')).length){
+          var elem = divs.eq(Math.floor(Math.random()*divs.length));
+          elem.prev().remove(); 
+          elem.fadeIn(Math.floor(Math.random()*1000), fadeInDiv); 
+        }
+      })();
+    </script> -->
+    <?php wp_footer(); ?>
+  </body>
+</html>

@@ -18,7 +18,8 @@
 	position:absolute;
 	top:0px;
 	left:0px;
-	max-width: none;
+	max-width: 100%;
+	max-height: 100vh;
 }
 .nivo-main-image {
 	display: block !important;
@@ -80,16 +81,58 @@
 .nivo-caption p {
 	padding:30px;
 	margin:0;
-	transition: transform 0.8s;
+	bottom: 10px;
+	position: relative;
+	/*animation: fadein 3s, floatText 1s;*/
+	/*transition: transform 2s;*/
 /*position: relative;
 	bottom: -165px;
 	transform: translate(0, 165px);
 	transition: all 1s ease-in;*/
 }
 
-.nivo-caption p:hover {
-	transform: translate(0px, -20px);
+/*.htmlcaption p {
+	padding:30px;
+	margin:0;
+	bottom: 10px;
+	position: relative;
+	animation: none !important;
+	
 }
+.htmlcaptionTransitionElement p {
+	padding:30px;
+	margin:0;
+	bottom: 10px;
+	position: relative;
+	animation: fadein 3s, floatText 1s;
+}*/
+
+/*.nivo-caption p.active {
+	transform: translate(0px, -20px);		
+}*/
+
+
+/*@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+@keyframes floatText {
+  0% {
+    bottom: -20px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}*/
+
+/*.nivo-caption p:hover {
+	transform: translate(0px, -20px);
+}*/
 
 .nivo-caption a {
 	display:inline !important;
